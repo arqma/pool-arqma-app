@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-                String url2="https://supportaeon.com/";
+                String url2="https://pool.arqma.com/";
                 // all links  with in ur site will be open inside the webview
                 //links that start ur domain example(http://www.example.com/)
                 if (url != null && url.startsWith(url2)){
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
 
         RelativeLayout LayoutLoading = (RelativeLayout) findViewById(R.id.LayoutLoading);
         LayoutLoading.setVisibility(View.VISIBLE);
-        myWebView.loadUrl("https://supportaeon.com/#/dashboard");
+        myWebView.loadUrl("https://pool.arqma.com/#/dashboard");
 
 
 
@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (alarmUp)
         {
-            Toast.makeText(context, "SupportAeon.com server check already running", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "pool.ArQma.com server check already running", Toast.LENGTH_LONG).show();
         }
         else
         {
@@ -268,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
 
             manager.setInexactRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), interval, pendingIntent);
 
-            Toast.makeText(context, "SupportAeon.com server check started every " +  txt, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "pool.ArQmA.com server check started every " +  txt, Toast.LENGTH_LONG).show();
         }
 
 
@@ -302,7 +302,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.action_about) {
             try {
-                Uri uri = Uri.parse("https://supportaeon.com/#/androidapp"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("https://pool.arqma.com/#/androidapp"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             } catch(Exception e) {
@@ -311,7 +311,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.action_website) {
             try {
-                Uri uri = Uri.parse("https://supportaeon.com"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("https://pool.arqma.com"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             } catch(Exception e) {

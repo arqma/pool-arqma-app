@@ -38,7 +38,7 @@ public class OnBootReceiver extends BroadcastReceiver {
 
         if (alarmUp)
         {
-            Toast.makeText(context, "SupportAeon.com server check already running", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "ArQmA.com server check already running", Toast.LENGTH_LONG).show();
         }
         else
         {
@@ -79,7 +79,7 @@ public class OnBootReceiver extends BroadcastReceiver {
 
             manager.setInexactRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), interval, pendingIntent);
 
-            Toast.makeText(context, "SupportAeon.com server check started every " +  txt, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "ArQmA.com server check started every " +  txt, Toast.LENGTH_LONG).show();
         }
 
 
