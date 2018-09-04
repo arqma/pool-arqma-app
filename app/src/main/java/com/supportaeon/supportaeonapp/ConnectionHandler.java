@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class ConnectionHandler extends AsyncTask<String, Void, String> {
     //public static String baseSiteUrl = "http://localhost:26575/mobile/";
-    public static String baseSiteUrl = "https://api2.arqma.com/api/";
+    public static String baseSiteUrl = "https://api.arqma.com/";
 
     ArrayList<ResponseListener> listeners = new ArrayList<ResponseListener> ();
 

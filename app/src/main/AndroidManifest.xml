@@ -8,12 +8,12 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="ArQmA.com Pool"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="ArQmA dev Pool Monitor"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SettingsActivity"
-            android:label="ArQmA dev Pool Monitor"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             />
 
