@@ -20,7 +20,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Created by romeu on 15/01/2018.
+ * Created by ArqTras on 05/09/2018.
  */
 
 public class CheckDataReceiver extends BroadcastReceiver {
@@ -138,9 +138,9 @@ public class CheckDataReceiver extends BroadcastReceiver {
                             }
 
                             if (countBlocks == 1) {
-                                sendNotification(2, "1 Block Unlocked", text, context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(2, "1 Block Unlocked", text, context, false, R.drawable.ic_launcher);
                             } else {
-                                sendNotification(2, countBlocks + " Blocks Unlocked", text, context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(2, countBlocks + " Blocks Unlocked", text, context, false, R.drawable.ic_launcher);
                             }
 
                         }
@@ -239,9 +239,9 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
                         if (totalPaymentsFound > 0) {
                             if (totalPaymentsFound == 1) {
-                                sendNotification(1, "1 New Payment Received", "Amount: " + (totalAmount / divider) + " AEON", context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(1, "1 New Payment Received", "Amount: " + (totalAmount / divider) + " ARQMA", context, false, R.mipmap.ic_launcher);
                             } else {
-                                sendNotification(1, totalPaymentsFound + " New Payments Received", "Amount: " + (totalAmount / divider) + " AEON", context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(1, totalPaymentsFound + " New Payments Received", "Amount: " + (totalAmount / divider) + " ARQMA", context, false, R.mipmap.ic_launcher);
                             }
 
                         }
@@ -326,9 +326,9 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
 
                             if (totalNewBlocks == 1) {
-                                sendNotification(1, "New Block", "One new block was found", context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(1, "New Block", "One new block was found", context, false, R.mipmap.ic_launcher);
                             } else {
-                                sendNotification(1, totalNewBlocks + " New Blocks", totalNewBlocks + " new blocks were found", context, false, R.drawable.ic_aeon_logo_svg);
+                                sendNotification(1, totalNewBlocks + " New Blocks", totalNewBlocks + " new blocks were found", context, false, R.mipmap.ic_launcher);
                             }
 
                         }
@@ -515,7 +515,7 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
                     }
 
-                    sendNotification(4, poolText, userText, context, true, R.drawable.ic_aeon_logo_svg);
+                    sendNotification(4, poolText, userText, context, true, R.mipmap.ic_launcher);
 
                 }
                 catch (Exception ex)
