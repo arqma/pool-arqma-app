@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                                 "angular.element(document.getElementsByTagName('button')[2]).scope().paymentAddress='" + restoredWallet + "'; " +
                                 "angular.element(document.getElementsByTagName('button')[2]).scope().addAddress();" +
                                 "document.getElementsByTagName('form')[0].innerHTML = '" + walletMsg + "';" +
-                                "document.getElementsByClassName('footer')[0].innerHTML += '<br/>Android App By <a href=\"http://www.romeupaz.com\" target=\"_blank\">romeupaz.com</a>'; "+
+                                "document.getElementsByClassName('footer')[0].innerHTML += '<br/>Android App By <a href=\"https://arqma.com.com\" target=\"_blank\">arqma.com</a>'; "+
                                 "var buttonArray = document.getElementsByTagName('button');" +
                                 "var ids = [];" +
                                 "for(i = 0; i < buttonArray.length; i++){ " +
