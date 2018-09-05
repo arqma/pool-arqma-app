@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '28.0.1'
     defaultConfig {
         applicationId "com.supportaeon.supportaeonapp"
         minSdkVersion 23
-        targetSdkVersion 23
-        versionCode 5
-        versionName "1.4"
+        targetSdkVersion 27
+        versionCode 6
+        versionName '1.0 "Arqma Pool Monitor"'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
