@@ -4,12 +4,12 @@ android {
     compileSdkVersion 27
     buildToolsVersion '28.0.1'
     defaultConfig {
-        applicationId "com.arqma.poolmonitor"
+        applicationId 'com.arqma.poolmonitor'
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 7
-        versionName  "1.0 Arqma Pool Monitor"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 20
+        versionName  '1.1 Arqma Pool Monitor'
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }
     buildTypes {
         release {

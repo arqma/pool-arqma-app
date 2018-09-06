@@ -235,7 +235,7 @@ public class CheckDataReceiver extends BroadcastReceiver {
                         }
 
 
-                        Double divider = Double.parseDouble("1000000000000");
+                        Double divider = Double.parseDouble("1000000000");
 
                         if (totalPaymentsFound > 0) {
                             if (totalPaymentsFound == 1) {
@@ -370,7 +370,7 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
                 try {
 
-                    Double divider = Double.parseDouble("1000000000000");
+                    Double divider = Double.parseDouble("1000000000");
 
                     JSONObject jsonValues = new JSONObject(str);
 
@@ -454,7 +454,7 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
                 try {
 
-                    Double divider = Double.parseDouble("1000000000000");
+                    Double divider = Double.parseDouble("1000000000");
 
                     JSONObject jsonValuesStart = new JSONObject(str);
 
