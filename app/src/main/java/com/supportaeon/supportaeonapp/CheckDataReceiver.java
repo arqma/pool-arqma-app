@@ -125,9 +125,10 @@ public class CheckDataReceiver extends BroadcastReceiver {
                                     Double amD = localUserValues.getAmountDue();
                                     Double amP = localUserValues.getAmountPayed();
 
-                                    DecimalFormat df = new DecimalFormat("000000.00000");
+                                    DecimalFormat df = new DecimalFormat("0.000");
+                                    DecimalFormat dp = new DecimalFormat("0000.000");
 
-                                    text = "Amount due: " + df.format(amD) + "  paid: " + df.format(amP);
+                                    text = "Amount due: " + df.format(amD) + "  paid: " + dp.format(amP);
 
                                 }
 
