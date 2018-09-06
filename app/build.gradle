@@ -7,7 +7,7 @@ android {
         applicationId 'com.arqma.poolmonitor'
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 12
+        versionCode 20
         versionName  '1.1 Arqma Pool Monitor'
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
     }

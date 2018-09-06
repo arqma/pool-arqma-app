@@ -126,9 +126,8 @@ public class CheckDataReceiver extends BroadcastReceiver {
                                     Double amP = localUserValues.getAmountPayed();
 
                                     DecimalFormat df = new DecimalFormat("0.000");
-                                    DecimalFormat dp = new DecimalFormat("0000.000");
 
-                                    text = "Amount due: " + df.format(amD) + "  paid: " + dp.format(amP);
+                                    text = "Amount due: " + df.format(amD) + "  paid: " + df.format(amP);
 
                                 }
 
@@ -455,7 +454,7 @@ public class CheckDataReceiver extends BroadcastReceiver {
 
                 try {
 
-                    Double divider = Double.parseDouble("1000000000000");
+                    Double divider = Double.parseDouble("1000000000");
 
                     JSONObject jsonValuesStart = new JSONObject(str);
 
